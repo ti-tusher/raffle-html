@@ -1,0 +1,116 @@
+/* navigation */
+
+@media (max-width: 991.98px) {
+    .offcanvas-collapse {
+        position: fixed;
+        top: 0;
+        /* Height of navbar */
+        bottom: 0;
+        left: 100%;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow-y: auto;
+        visibility: hidden;
+        background-color: #343a40;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+        z-index: 99;
+    }
+
+    .offcanvas-collapse.open {
+        visibility: visible;
+        transform: translateX(-100%);
+    }
+}
+
+@media (min-width: 768px){
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media only screen and (min-device-width :320px) and (max-device-width :1024px) {
+    .mb-46 {
+        margin-bottom: 25px;
+    }
+    .mb-30 {
+        margin-bottom: 20px;
+    }
+    .navbar-nav.ml-auto {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .bidding-card-inner {
+        flex-direction: column;
+    }
+    .card-horizontal .img-square-wrapper {
+        margin: 15px;
+        margin-bottom: 0;
+        background-color: #fff;
+        padding: 0;
+    }
+    .medicine-text {
+        font-size: 20px;
+    }
+    .social-div, .quick-link-div {
+        margin-top: 20px;
+    }
+    .copyright-text {
+        font-size: 12px;
+    }
+    .product-page-card{
+        padding:5px;
+    }
+    .product-page-card h3, .product-page-card p, .product-page-card .btn{
+        font-size: 12px;
+    }
+    .product-page-card {
+        text-align: center;
+    }
+    .product-img-div {
+        width: auto;
+        height: auto;
+    }
+    .product-page-card .btn{
+        display: block;
+        width: 100%;
+    }
+    .bidding-countdown {
+        font-size: 12px;
+        height: auto;
+    }
+    .live-bidding-products .card-body {
+        min-height: 0;
+    }
+    .live-products-button-group {
+        position: relative;
+    }
+    .p-d-over-view-div {
+        padding:15px;
+    }
+    .product-details-wrapper h2 {
+        margin-top: 0;
+    }
+    .bidding-countdown {
+        padding:5px;
+        height: auto;
+    }
+    ul.bidding-countdown li, ul.bidding-countdown li span {
+        font-size: 12px;
+    }
+    ul.bidding-countdown li.seperator {
+        font-size: 12px;
+        vertical-align: top;
+    }
+    .left-menu-switch {
+        display: inline-block;
+    }
+    .side-menu {
+        display: none;
+        margin-bottom: 15px;
+    }
+    .auth-content .auth-box {
+        padding: 0 !important;
+    }
+}
